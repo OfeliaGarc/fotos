@@ -1,0 +1,45 @@
+		p {
+	font-size: 25px;
+	font-family: cursive;
+}
+div>div {
+	height: 350px;
+	width: 350px;
+	border: 2px solid gray;
+}
+img {
+	height: 350px;
+	width: 350px;
+	position: absolute;
+	-webkit-filter: contrast(70%);
+}
+.arriba {
+	display: inline-block;
+	margin-left: 20px;
+}
+.abajo {
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+hr {
+	height: 5px;
+	width: 150px;
+	border: 0;
+	background-color: black;
+	margin-left: 10px;
+}
+.caption::before {
+	content: att (title);
+	position: absolute;
+	color: white;
+	font-size: 15px;
+	padding: 5px;
+	right: 0;
+	bottom: 0;
+	z-index: 90;
+}
